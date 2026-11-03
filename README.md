@@ -1,10 +1,10 @@
-# RideSakhi 🛡️
+# SAKIVYA 🛡️
 
-**AI-powered women's journey safety companion**
+**Every journey. More confidence.**
 
-RideSakhi is a safety-focused web application concept that helps people prepare for and monitor journeys through trusted-contact sharing, trip check-ins, vehicle-detail records, emergency workflows, and explainable AI-assisted risk indicators.
+SAKIVYA is an AI-powered personal journey safety companion. It helps people prepare for and monitor journeys through trusted-contact sharing, trip check-ins, vehicle-detail records, emergency workflows, and explainable AI-assisted safety insights.
 
-> **Important:** RideSakhi is an independent safety companion, not an emergency service or a government vehicle-verification system. It cannot guarantee personal safety. In an emergency in India, contact local emergency services (112) directly. Do not rely on this application as the only way to request help.
+> **Important:** SAKIVYA is an independent safety companion, not an emergency service or a government vehicle-verification system. It cannot guarantee personal safety. In an emergency in India, contact emergency services (112) directly. Do not rely on this application as the only way to request help.
 
 ## Product goals
 
@@ -17,29 +17,29 @@ RideSakhi is a safety-focused web application concept that helps people prepare 
 
 ## Planned features
 
-### 1. Account and trusted contacts
+### Account and trusted contacts
 - Secure sign-up/sign-in.
 - User-managed trusted contacts.
 - Consent and privacy controls.
 
-### 2. Journey management
+### Journey management
 - Start, pause, complete, and cancel a journey.
 - Origin, destination, planned route, and expected arrival time.
 - Periodic check-ins and overdue-arrival reminders.
 - Optional live location sharing, clearly visible and user-controlled.
 
-### 3. Vehicle information
+### Vehicle information
 - Record registration number, vehicle type, colour, and driver-provided details.
 - Review and confirm details before starting a trip.
 - Clearly distinguish user-entered information from independently verified information.
 
-### 4. Emergency assistance
+### Emergency assistance
 - Prominent SOS action with a confirmation/cancel flow designed to reduce accidental activation.
 - Share a concise emergency message and latest available location with selected trusted contacts.
 - Display India's emergency number **112** and make clear that contacting emergency services may require a separate phone action.
 - Never represent a notification as delivered unless delivery is confirmed by the service.
 
-### 5. AI safety intelligence
+### AI safety intelligence
 - Explainable advisory risk indicators based on transparent signals such as route deviation, missed check-ins, or an overdue journey.
 - Context-aware safety suggestions.
 - AI-generated summaries that identify their inputs and uncertainty.
