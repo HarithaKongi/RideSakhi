@@ -84,9 +84,16 @@ The stack is a proposal and will be confirmed against the actual implementation 
 
 Setup instructions will be added after the frontend and backend scaffolds are committed. Never put real API keys in source control. Use environment variables and provide only placeholder values in example files.
 
-## Project status
+## Current implementation
 
-**Planning / foundation stage.** Features are not production-ready until implemented, tested, and deployed. Do not use a development build as an emergency service.
+The first frontend milestone includes:
+- Responsive dashboard and mobile navigation.
+- Create journey plans with origin, destination, departure time, optional contact details, and notes.
+- Save journey plans in browser local storage and reload them on the same browser profile.
+- Start, check in, complete, cancel, and remove saved journey plans.
+- Safety guidance and a clearly labelled emergency call shortcut for India (112).
+
+This is a **local frontend prototype**. It does not yet provide accounts, cloud synchronization, real-time GPS tracking, trusted-contact messaging, automatic SOS delivery, route-risk analysis, or a live AI assistant. Local browser storage is not a secure vault; avoid entering sensitive personal information or using the prototype on a shared device. Features are not production-ready until implemented, tested, and deployed. Do not use a development build as an emergency service.
 
 ## Contributing
 
