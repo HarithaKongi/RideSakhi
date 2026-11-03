@@ -1,10 +1,10 @@
-# SAKIVYA 🛡️
+# ABHAYATRA 🛡️
 
-**Every journey. More confidence.**
+**अभयात्रा — Every journey deserves confidence.**
 
-SAKIVYA is an AI-powered personal journey safety companion. It helps people prepare for and monitor journeys through trusted-contact sharing, trip check-ins, vehicle-detail records, emergency workflows, and explainable AI-assisted safety insights.
+ABHAYATRA is an AI-powered personal journey safety companion. It helps people prepare for and monitor journeys through trusted-contact sharing, trip check-ins, vehicle-detail records, emergency workflows, and explainable AI-assisted safety insights. The name is inspired by the Sanskrit words *abhaya* (fearlessness) and *yātrā* (journey).
 
-> **Important:** SAKIVYA is an independent safety companion, not an emergency service or a government vehicle-verification system. It cannot guarantee personal safety. In an emergency in India, contact emergency services (112) directly. Do not rely on this application as the only way to request help.
+> **Important:** ABHAYATRA is an independent safety companion, not an emergency service or a government vehicle-verification system. It cannot guarantee personal safety. In an emergency in India, contact emergency services (112) directly. Do not rely on this application as the only way to request help.
 
 ## Product goals
 
