@@ -33,7 +33,7 @@ function App() {
       <aside className="sidebar">
         <a className="brand" href="#" onClick={() => setTab("Overview")}>
           <span className="brand-mark"><ShieldCheck size={22} /></span>
-          <span>ride<span className="brand-accent">sakhi</span><small>YOUR JOURNEY COMPANION</small></span>
+          <span>SAKIVYA<small>YOUR JOURNEY COMPANION</small></span>
         </a>
         <div className="side-label">WORKSPACE</div>
         <nav>{nav.map(({ label, icon: Icon }) => (
@@ -74,7 +74,7 @@ function App() {
           </section>
 
           <section className="bottom-strip"><div className="bottom-icon"><ShieldCheck size={18}/></div><div><strong>Designed around your choices</strong><p>Location sharing and journey updates should always be transparent and under your control.</p></div><button onClick={() => setTab("Safety assistant")}>Our safety principles <ArrowRight size={14}/></button></section>
-          <footer><span>© 2026 RideSakhi</span><span><span className="green-dot"/> DEMO EXPERIENCE · NOT AN EMERGENCY SERVICE</span><a href="https://112.gov.in/" target="_blank" rel="noreferrer">India emergency help: 112 <ArrowDownRight size={12}/></a></footer>
+          <footer><span>© 2026 SAKIVYA</span><span><span className="green-dot"/> DEMO EXPERIENCE · NOT AN EMERGENCY SERVICE</span><a href="https://112.gov.in/" target="_blank" rel="noreferrer">India emergency help: 112 <ArrowDownRight size={12}/></a></footer>
         </div>
       </main>
 
