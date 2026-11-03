@@ -50,6 +50,7 @@ function App() {
   const [contactPhone, setContactPhone] = useState("");
   const [notes, setNotes] = useState("");
   const [formError, setFormError] = useState("");
+  const [showMobileNav, setShowMobileNav] = useState(false);
 
   useEffect(() => {
     try {
@@ -144,8 +145,9 @@ function App() {
       <main className="main-area">
         <header className="topbar">
           <div className="breadcrumb"><span>ABHAYATRA</span><span className="slash">/</span><strong>{tab}</strong></div>
-          <div className="top-actions"><span className="secure-label"><span className="green-dot"/> Stored on this device</span><button className="icon-button" aria-label="Notifications"><Bell size={18}/></button><button className="mobile-menu" aria-label="Menu"><Menu size={20}/></button></div>
+          <div className="top-actions"><span className="secure-label"><span className="green-dot"/> Stored on this device</span><button className="icon-button" aria-label="Notifications"><Bell size={18}/></button><button className="mobile-menu" aria-label="Toggle navigation" aria-expanded={showMobileNav} onClick={() => setShowMobileNav(value => !value)}><Menu size={20}/></button></div>
         </header>
+        {showMobileNav && <nav className="mobile-nav">{nav.map(({label,icon:Icon})=><button key={label} className={tab===label?"active":""} onClick={()=>{setTab(label);setShowMobileNav(false);}}><Icon size={16}/>{label}</button>)}</nav>}
 
         <div className="content">
           <section className="welcome-row">
